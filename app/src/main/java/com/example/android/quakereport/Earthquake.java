@@ -15,6 +15,14 @@
  */
 package com.example.android.quakereport;
 
+import android.support.annotation.Nullable;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.Charset;
+
 /**
  * An {@link Earthquake} object contains information related to a single earthquake.
  */
@@ -75,4 +83,7 @@ public class Earthquake {
     public String getUrl() {
         return mUrl;
     }
+
+    //]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
 }
